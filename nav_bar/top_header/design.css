@@ -6,6 +6,7 @@
     width: 88%;
     left: 6%;
     border-radius: 1%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
 
     
 
@@ -25,7 +26,7 @@
 }
 .headertext{
     position: absolute;
-    bottom:180px;
+    margin-top: -420px;
     font-family: Arial;
     left: 110px;
   
@@ -44,7 +45,7 @@ color: white;
 width: 250px;
 height: 65px;
 font-size: larger;
-border-radius: 5%;
+border-radius:7px;
 }
 #love{
     font-size: 55px;
@@ -59,23 +60,32 @@ border-radius: 5%;
     
     background-color: #17C1A3;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+    border-color: navajowhite;
+
 }
 .row1{
     display: flex;
 }
 .fname{
-flex: 1;
-font-size: larger;
+height: 50px;
+width: 300px;
+margin-right: 35px;
+border-radius: 7px;
+text-align: right 20px;
 
 
 }
 .lnum{
-    flex: 2;
-    font-size: larger;
+    height: 50px;
+    width: 300px;
+    border-radius:7px;
+    margin-right: 35px;
+
 }
 .date{
-    flex: 3;
-    font-size: larger;
+    height: 50px;
+    width: 300px;
+    border-radius:7px;
 }
 .selectionform{
     position: absolute;
@@ -85,29 +95,122 @@ font-size: larger;
     top: 580px;
    padding: 20px;
     border-radius: 25px 25px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
     
-    
-
     background-color: white;
     
    
 }
-.input{
-    width: 15%;
+.selectionform h2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+margin-bottom: 8px;
 }
+
+
 .row2{
     display: flex;
-    padding: 2px;
+   
 
 }
 .dept{
     
-    flex: 1;
+    height: 50px;
+    width: 300px;
+    border-radius:7px;
+    margin-right: 35px;
+    margin-top: 20px;
+    
     
 }
 .doc{
-    flex:2
+    height: 50px;
+    width: 300px;
+    border-radius:7px;
+    margin-right: 35px;
+    margin-top: 20px;
+
 }
-.button big{
-    flex: 3;
+.big{
+    height: 50px;
+    width: 300px;
+    border-radius:7px;
+    margin-right: 35px;
+    margin-top: 20px;
+    font-size: large;
+}
+.outdep{
+    display: flex;
+
+}
+.outdep a{
+    position: absolute;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: #17C1A3;
+}
+.outdep h1{
+    position: absolute;
+    margin-top:  180px; 
+    margin-left: 85px;
+}
+.outdep p{
+    position: absolute;
+    margin-top: 20px;
+}
+.outdep img{
+    position: relative;
+    height: 200px;
+    width: 350px;
+}
+
+.dep1{
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 250px;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px; */
+}
+.dep2{
+    margin-left: 500px;
+    position: absolute;
+    margin-top: 250px;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px; */
+}
+.dep3{
+    margin-left: 900px;
+    position: absolute;
+    margin-top: 250px;
+}
+.docgrpimg img{
+    position: absolute;
+    margin-top: 800px;
+    height: 600px;
+    width: 800px;
+    margin-left: 100px;
+}
+
+.whygg li{
+    
+    list-style-image: url(Group\ 120.png);
+    margin-top: 36px;
+}
+.whygg{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 870px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.meetourspc{
+    margin-top: 1600px;
+    display: flex;
+    position: absolute;
+    right: 100px;
+
+}
+.meetourspc img{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    margin-left: 30px;
 }
