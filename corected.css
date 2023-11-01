@@ -1,0 +1,50 @@
+#deadpool{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+}
+body{
+    background-color: black;
+}
+#botomseparator{
+    display: flex;
+}    
+
+#left{
+    flex: 1;
+    background-color:rgb(226, 116, 116);
+    width: 30%;
+    padding: 2%;
+}
+#right{
+    flex: 2;
+    background-color:rgb(179, 141, 214) ;
+    width: 70%;
+    padding: 2%;
+}
+.header{
+    display: flex;
+    height:300px;
+    width:100%;
+    background-color: rgb(10, 143, 143);
+    
+}
+.namedesig{
+    background-color: rgb(156, 156, 228);
+    height:120px;
+    width: 75%;
+    margin-top: 40px;
+    border-radius: 30%;
+}
+#name{
+    margin-left: 250px;
+}
+#desg{
+    margin-left: 250px;
+}
+#right table, td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}

@@ -1,0 +1,79 @@
+title {
+  background-color: aliceblue;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Times New Roman", Times, serif;
+}
+h2 {
+  color: red;
+}
+h3 {
+  color: red;
+}
+body {
+  background-color: rgb(143, 224, 214);
+  text-align: center;
+}
+table {
+  background-color: rgb(212, 101, 66);
+  width: 100%;
+  text-align: left;
+}
+.headding {
+  background-color: rgb(204, 43, 21);
+}
+#para {
+  background-color: black;
+}
+
+#divcommonformat {
+  background-color: chartre;
+  border: 0cqmax;
+}
+#divtableformat {
+  background-color: coral;
+  border: 0cap;
+}
+#divlistformat {
+  background-color: gray;
+  box-shadow: 0cm;
+}
+#unorderedcolour {
+  background-color: brown;
+  border-radius: 0cqh;
+  border-color: ;
+}
+ol {
+  color: rgb(232, 232, 238);
+  background-color: blue;
+  padding: 4%;
+  text-align: left;
+}
+
+ul {
+  background-color: brown;
+  padding: 4%;
+  text-align: left;
+}
+
+ul li {
+  background-color: rgb(228, 140, 140);
+  text-align: left;
+  color: black;
+  padding: .5%;
+  border: rgb(172, 77, 67);
+}
+ol li {
+  color: rgb(232, 232, 238);
+  background-color: rgb(246, 246, 255);
+  text-align: left;
+  border: solid blue;
+  border-spacing: 1%;
+  color: black;
+}
+p {
+  text-align: left;
+}
