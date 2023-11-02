@@ -381,6 +381,11 @@ font-size: small;
     width: 100%;
     justify-content: space-between;
     background-color: rgb(241, 241, 241);
+
+  }
+ .headder{
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
   }
   #gg-icon{
     padding-top: 1%;
