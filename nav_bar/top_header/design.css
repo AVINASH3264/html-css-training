@@ -368,7 +368,7 @@ font-size: small;
     margin-left: 300px;
     border-color: white;
     border: none;
-    text-decoration: underline;
+    border-bottom: black;
     
 }
 .subinin{
@@ -422,6 +422,7 @@ font-size: small;
  
 #up2-h{
   margin-left: 16px;
+  margin-bottom: 20px;
 }
  
 #up3-grid{
@@ -436,6 +437,7 @@ font-size: small;
 }
  
 #up3-h{
+    margin-bottom: 20px;
   margin-left: 18px;
 }
  
